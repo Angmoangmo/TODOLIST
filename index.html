@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="utf-8">
+    <title> TODO LIST APP</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scaled=1.0">
+   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" >
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="task-input"> 
+            <!--<i class="fa fa-bars"></i>-->
+            <input type="text" placeholder="Add a new task">
+        </div>
+        <div class="controls">
+            <div class="filters">
+                <span id="all" class="active">ALL</span>
+                <span id="pending">PENDING</span>
+                <span id="complete">COMPLETED</span>
+            </div>
+            <button class="clear-btn">CLEAR ALL</button>
+        </div>
+        <ul class="task-box">
+            <li class="task">
+                <label for="1">
+                    <input type="checkbox" id="1">
+                    <p>study the subjects for exams from 9am to 11am</p>
+                </label>
+                <div class="settings">
+                    <i class="uil uil-ellipsis-h"></i>
+                    <ul class="task-menu">
+                        <li><i class="uil uil-pen"></i>Edit</li>
+                        <li><i class="uil uil-trash"></i>Delete</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="task">
+                <label for="1">
+                    <input type="checkbox" id="1">
+                    <p>doing task of LETMEGROW from 2pm to 4pm</p>
+                </label>
+                <div class="settings">
+                    <i class="uil uil-ellipsis-h"></i>
+                </div>
+            </li>
+            <li class="task">
+                <label for="1">
+                    <input type="checkbox" id="1">
+                    <p>write a blog</p>
+                </label>
+                <div class="settings">
+                    <i class="uil uil-ellipsis-h"></i>
+                </div>
+            </li>
+            <li class="task">
+                <label for="1">
+                    <input type="checkbox" id="1">
+                    <p>water the plants and trees</p>
+                </label>
+                <div class="settings">
+                    <i class="uil uil-ellipsis-h"></i>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
